@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example</title>
+</head>
+<body>
+    <h1>Hi</h1>
+    <p>Click button:</p>
+    <button id="showmessage">showmessage</button>
+
+    <p id="showmessage"></p>
+
+    <script>
+        function showmessage() {
+            var elementoMessaggio = document.getElementById("showmessage");
+            elementoMessaggio.innerHTML = "showmessage";
+        }
+        var pulsante = document.getElementById("showmessage");
+        pulsante.addEventListener("click", showmessage);
+    </script>
+</body>
+</html>
